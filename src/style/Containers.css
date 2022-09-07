@@ -1,0 +1,49 @@
+.navigationBar {
+    width: 100vw;
+    height: 75px;
+    position: fixed;
+    z-index: 1;
+}
+
+.contentRows {
+    position: absolute;
+    top: 75px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+
+@media only screen and (orientation: landscape) {
+    .contentSplitter {
+        display: flex;
+        flex-direction: row;
+        height: calc(100vh - 75px);
+        width: 100vw;
+    }
+    .contentDesc {
+        width: 50vw;
+        background-color: aqua;
+    }
+    .contentImg {
+        width: 50vw;
+        background-color: green;
+    }
+}
+
+@media only screen and (orientation: portrait) {
+    .contentSplitter {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        width: 100vw;
+    }
+    .contentDesc {
+        height: auto;
+        background-color: aqua;
+    }
+    .contentImg {
+        height: auto;
+        background-color: green;
+    }
+}

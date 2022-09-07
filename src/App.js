@@ -5,18 +5,21 @@ import Achievements from "./components/Achievements.js";
 import Experiences from "./components/Experiences.js";
 import Projects from "./components/Projects.js";
 import NavBar from "./components/NavBar.js";
+import "./style/Containers.css";
 
 function App() {
   return (<>
-    <div><NavBar /></div>
-    <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/achievements" element={<Achievements />} />
-        <Route path="/experiences" element={<Experiences />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
-    </Router>
+    <div className="navigationBar"><NavBar /></div>
+    <div className="contentRows">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/achievements" element={<Achievements />} />
+          <Route path="/experiences" element={<Experiences />} />
+          <Route path="/projects" element={<Projects />} />
+        </Routes>
+      </Router>
+    </div>
   </>);
 }
 

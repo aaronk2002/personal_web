@@ -1,5 +1,7 @@
+import SingleContent from "./SingleContent";
+
 function Achievements() {
-    return (<>Achievements</>);
+    return (<><SingleContent /></>);
 }
 
 export default Achievements;
