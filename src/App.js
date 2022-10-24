@@ -9,17 +9,17 @@ import "./style/Containers.css";
 
 function App() {
   return (<>
-    <div className="navigationBar"><NavBar /></div>
-    <div className="contentRows">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/achievements" element={<Achievements />} />
-          <Route path="/experiences" element={<Experiences />} />
-          <Route path="/projects" element={<Projects />} />
-        </Routes>
-      </Router>
-    </div>
+    <Router>
+      <div className="navigationBar"><NavBar /></div>
+      <div className="contentRows">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/achievements" element={<Achievements />} />
+            <Route path="/experiences" element={<Experiences />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+      </div>
+    </Router>
   </>);
 }
 

@@ -2,7 +2,9 @@
     width: 100vw;
     height: 75px;
     position: fixed;
+    display: flex;
     z-index: 1;
+    background-color: #63BBFB;
 }
 
 .contentRows {
@@ -12,6 +14,57 @@
     display: flex;
     flex-direction: column;
     z-index: 0;
+}
+
+.navFlex {
+    display: flex;
+}
+
+.navPages {
+    display: flex;
+}
+
+.navLinks {
+    align-self: stretch;
+    background-color: #63BBFB;
+    padding: 25px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.navButtons {
+    border: none;
+    background-color: #63BBFB;
+    color: white;
+    padding: 0px;
+    font-size: medium;
+}
+
+.navLinkedIn {
+    position: absolute;
+    right: 25px;
+    align-self: stretch;
+    height: 100%;
+    background-image: url("../../public/linkedIn.png");
+    width: 45px;
+    height: 45px;
+    top: 15px;
+    background-size: 45px;
+}
+
+.navEmail {
+    position: absolute;
+    right: 90px;
+    align-self: stretch;
+    height: 100%;
+    background-image: url("../../public/gmail.png");
+    width: 45px;
+    height: 40px;
+    top: 15px;
+    background-size: 45px;
 }
 
 @media only screen and (orientation: landscape) {
