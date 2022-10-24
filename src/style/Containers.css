@@ -23,11 +23,9 @@
     }
     .contentDesc {
         width: 50vw;
-        background-color: aqua;
     }
     .contentImg {
         width: 50vw;
-        background-color: green;
     }
 }
 
@@ -35,15 +33,13 @@
     .contentSplitter {
         display: flex;
         flex-direction: column-reverse;
-        height: auto;
+        height: 150vh;
         width: 100vw;
     }
     .contentDesc {
-        height: auto;
-        background-color: aqua;
+        height: 75vh;
     }
     .contentImg {
-        height: auto;
-        background-color: green;
+        height: 75vh;
     }
 }

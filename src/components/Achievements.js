@@ -1,7 +1,11 @@
 import SingleContent from "./SingleContent";
 
 function Achievements() {
-    return (<><SingleContent /></>);
+    return (<>
+        <SingleContent />
+        <SingleContent />
+        <SingleContent />
+    </>);
 }
 
 export default Achievements;
