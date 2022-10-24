@@ -76,6 +76,10 @@
     }
     .contentDesc {
         width: 50vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 7vh;
     }
     .contentImg {
         width: 50vw;
@@ -91,6 +95,10 @@
     }
     .contentDesc {
         height: 75vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
     }
     .contentImg {
         height: 75vh;
