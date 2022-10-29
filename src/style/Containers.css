@@ -67,6 +67,11 @@
     background-size: 45px;
 }
 
+.homeImgContainer {
+    height: 75vh;
+    width: 75vh;
+}
+
 @media only screen and (orientation: landscape) {
     .contentSplitter {
         display: flex;
@@ -83,6 +88,9 @@
     }
     .contentImg {
         width: 50vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -102,5 +110,8 @@
     }
     .contentImg {
         height: 75vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }

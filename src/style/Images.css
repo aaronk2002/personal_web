@@ -1,0 +1,42 @@
+.ring {
+    position: absolute;
+    height: 75vh;
+    width: 75vh;
+    animation: 
+        2s linear 0s infinite alternate grow,
+        2s linear 0s infinite alternate shrink;
+}
+
+.aaron {
+    position: relative;
+    left: 3vh;
+    top: 3vh;
+    height: 69vh;
+    width: 69vh;
+}
+
+@keyframes grow {
+    from {
+        height: 75vh;
+        width: 75vh;
+        transform: translate(0, 0);
+    }
+    to {
+        height: 80vh;
+        width: 80vh;
+        transform: translate(-2.5vh, -2.5vh);
+    }
+}
+
+@keyframes shrink {
+    from {
+        height: 80vh;
+        width: 80vh;
+        transform: translate(-2.5vh, -2.5vh);
+    }
+    to {
+        height: 75vh;
+        width: 75vh;
+        transform: translate(0, 0);
+    }
+}
