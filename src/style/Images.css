@@ -15,6 +15,12 @@
     width: 69vh;
 }
 
+.portrait {
+    position: relative;
+    width: 50vh;
+    height: 70vh;
+}
+
 @keyframes grow {
     from {
         height: 75vh;
