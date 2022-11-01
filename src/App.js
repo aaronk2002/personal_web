@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Route} from "react-router-dom";
 import { Routes } from "react-router-dom";
-import Home from "./components/Home.js";
-import Achievements from "./components/Achievements.js";
-import Experiences from "./components/Experiences.js";
-import Projects from "./components/Projects.js";
+import Home from "./pages/Home.js";
+import Achievements from "./pages/Achievements.js";
+import Experiences from "./pages/Experiences.js";
+import Projects from "./pages/Projects.js";
 import NavBar from "./components/NavBar.js";
 import "./style/Containers.css";
 

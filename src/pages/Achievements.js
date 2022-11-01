@@ -1,23 +1,6 @@
-import SingleContent from "./SingleContent";
-import "../style/Images.css";
-import "../style/Fonts.css";
-
-function Desc(props) {
-    return (<>
-        <div className="inter">
-            <h1>{props.title}</h1>
-            <p>{props.detail}</p>
-        </div>
-    </>);
-}
-
-function Img(props) {
-    return (<>
-        <a href={props.link} target="_blank">
-            <img src={props.img} className="portrait" />
-        </a>
-    </>)
-}
+import SingleContent from "../components/SingleContent";
+import Desc from "../components/Desc.js";
+import Img from "../components/Img.js";
 
 function Achievements() {
     const comps = [
