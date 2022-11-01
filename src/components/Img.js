@@ -2,9 +2,17 @@ import "../style/Images.css";
 
 function Img(props) {
     return (<>
-        <a href={props.link} target="_blank">
-            <img src={props.img} className="portrait" />
-        </a>
+        {
+            props.link_type == "website" ?
+            <a href={props.link} target="_blank">
+                <img src={props.img} className={props.img_style} />
+            </a> : ( props.link_type == "file" ?
+            <a href={props.link} download>
+                <img src={props.img} className={props.img_style} />
+            </a> :
+            <img src={props.img} className={props.img_style} />
+            )
+        }
     </>)
 }
 

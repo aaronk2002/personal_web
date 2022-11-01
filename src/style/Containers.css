@@ -76,6 +76,10 @@
     width: 75vh;
 }
 
+.noMargin {
+    margin: 0px;
+}
+
 @media only screen and (orientation: landscape) {
     .contentSplitter {
         display: flex;

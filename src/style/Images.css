@@ -21,6 +21,12 @@
     height: 70vh;
 }
 
+.landscape {
+    position: relative;
+    width: 70vh;
+    height: 50vh;
+}
+
 @keyframes grow {
     from {
         height: 75vh;
