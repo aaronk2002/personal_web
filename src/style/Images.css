@@ -19,12 +19,16 @@
     position: relative;
     width: 50vh;
     height: 70vh;
+    border: solid;
+    border-color: #63BBFB;
 }
 
 .landscape {
     position: relative;
     width: 70vh;
-    height: 50vh;
+    height: 42vh;
+    border: solid;
+    border-color: #63BBFB;
 }
 
 @keyframes grow {
