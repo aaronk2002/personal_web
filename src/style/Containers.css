@@ -74,6 +74,9 @@
 .homeImgContainer {
     height: 75vh;
     width: 75vh;
+    display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 .noMargin {
@@ -106,18 +109,17 @@
     .contentSplitter {
         display: flex;
         flex-direction: column-reverse;
-        height: 150vh;
         width: 100vw;
     }
     .contentDesc {
-        height: 75vh;
+        height: calc(60vh - 37.5px);
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 50px;
     }
     .contentImg {
-        height: 75vh;
+        height: calc(60vh - 37.5px);
         display: flex;
         align-items: center;
         justify-content: center;

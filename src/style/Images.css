@@ -1,58 +1,109 @@
-.ring {
-    position: absolute;
-    height: 75vh;
-    width: 75vh;
-    animation: 
-        2s linear 0s infinite alternate grow,
-        2s linear 0s infinite alternate shrink;
-}
-
-.aaron {
-    position: relative;
-    left: 3vh;
-    top: 3vh;
-    height: 69vh;
-    width: 69vh;
-}
-
-.portrait {
-    position: relative;
-    width: 50vh;
-    height: 70vh;
-    border: solid;
-    border-color: #63BBFB;
-}
-
-.landscape {
-    position: relative;
-    width: 70vh;
-    height: 42vh;
-    border: solid;
-    border-color: #63BBFB;
-}
-
-@keyframes grow {
-    from {
+@media only screen and (orientation: landscape) {
+    .ring {
+        position: absolute;
         height: 75vh;
         width: 75vh;
-        transform: translate(0, 0);
+        animation: 
+            2s linear 0s infinite alternate grow,
+            2s linear 0s infinite alternate shrink;
     }
-    to {
-        height: 80vh;
-        width: 80vh;
-        transform: translate(-2.5vh, -2.5vh);
+    
+    .aaron {
+        position: relative;
+        height: 69vh;
+        width: 69vh;
+    }
+    
+    .portrait {
+        position: relative;
+        width: 50vh;
+        height: 70vh;
+        border: solid;
+        border-color: #63BBFB;
+    }
+    
+    .landscape {
+        position: relative;
+        width: 70vh;
+        height: 42vh;
+        border: solid;
+        border-color: #63BBFB;
+    }
+    
+    @keyframes grow {
+        from {
+            height: 75vh;
+            width: 75vh;
+        }
+        to {
+            height: 80vh;
+            width: 80vh;
+        }
+    }
+    
+    @keyframes shrink {
+        from {
+            height: 80vh;
+            width: 80vh;
+        }
+        to {
+            height: 75vh;
+            width: 75vh;
+        }
     }
 }
 
-@keyframes shrink {
-    from {
-        height: 80vh;
-        width: 80vh;
-        transform: translate(-2.5vh, -2.5vh);
+@media only screen and (orientation: portrait) {
+    .ring {
+        position: absolute;
+        height: 75vw;
+        width: 75vw;
+        animation: 
+            2s linear 0s infinite alternate grow,
+            2s linear 0s infinite alternate shrink;
     }
-    to {
-        height: 75vh;
-        width: 75vh;
-        transform: translate(0, 0);
+    
+    .aaron {
+        position: relative;
+        height: 69vw;
+        width: 69vw;
+    }
+    
+    .portrait {
+        position: relative;
+        width: 50vh;
+        height: 70vh;
+        border: solid;
+        border-color: #63BBFB;
+    }
+    
+    .landscape {
+        position: relative;
+        width: 70vh;
+        height: 42vh;
+        border: solid;
+        border-color: #63BBFB;
+    }
+    
+    @keyframes grow {
+        from {
+            height: 75vw;
+            width: 75vw;
+        }
+        to {
+            height: 80vw;
+            width: 80vw;
+        }
+    }
+    
+    @keyframes shrink {
+        from {
+            height: 80vw;
+            width: 80vw;
+        }
+        to {
+            height: 75vw;
+            width: 75vw;
+        }
     }
 }
