@@ -71,16 +71,16 @@
     
     .portrait {
         position: relative;
-        width: 50vh;
-        height: 70vh;
+        width: 50vw;
+        height: 70vw;
         border: solid;
         border-color: #63BBFB;
     }
     
     .landscape {
         position: relative;
-        width: 70vh;
-        height: 42vh;
+        width: 70vw;
+        height: 42vw;
         border: solid;
         border-color: #63BBFB;
     }

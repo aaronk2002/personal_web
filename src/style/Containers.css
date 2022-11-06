@@ -71,14 +71,6 @@
     background-size: 45px;
 }
 
-.homeImgContainer {
-    height: 75vh;
-    width: 75vh;
-    display: flex;
-        align-items: center;
-        justify-content: center;
-}
-
 .noMargin {
     margin: 0px;
 }
@@ -103,6 +95,14 @@
         align-items: center;
         justify-content: center;
     }
+
+    .homeImgContainer {
+        height: 75vh;
+        width: 75vh;
+        display: flex;
+            align-items: center;
+            justify-content: center;
+    }
 }
 
 @media only screen and (orientation: portrait) {
@@ -112,16 +112,23 @@
         width: 100vw;
     }
     .contentDesc {
-        height: calc(60vh - 37.5px);
+        height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         padding: 50px;
     }
     .contentImg {
-        height: calc(60vh - 37.5px);
+        height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-top: 50px;
+    }
+
+    .homeImgContainer {
+        display: flex;
+            align-items: center;
+            justify-content: center;
     }
 }
