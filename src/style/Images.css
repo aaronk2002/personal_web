@@ -110,7 +110,8 @@
     .menu {
         width: 35px;
         height: 5px;
-        background-color: black;
+        background-color: white;
         margin: 6px 0;
+        border-radius: 2px;
     }
 }
