@@ -6,7 +6,7 @@ function HomeInfo() {
         <p className="inter">
             I am a Computer Science and Engineering Undergraduate in MIT who plans on taking Mathematics as a second major. I am currently interested in Software Engineering and Quantitative Trading, and my goal is to make a real-world impact through technology, mainly from innovations in Computer Science and Mathematics. Check out my <a href="https://www.linkedin.com/in/aaron-alvarado-kristanto-julistiono/">LinkedIn</a>!
         </p>
-        Link to <a href={require("../public/Aaron Alvarado Kristanto Julistiono Resume.pdf")} download>Resume</a>
+        Link to <a href={require("../public/Aaron Alvarado Kristanto Julistiono Resume.pdf")} download="Aaron Alvarado Kristanto Julistiono Resume.pdf">Resume</a>
     </div></>);
 }
 
