@@ -4,14 +4,14 @@ import Img from "../components/Img.js";
 
 function Experiences() {
     const exps = [
-        {
+        /*{
             title: "Harvard-MIT Division of Health Sciences and Technology",
             detail: <>Undergraduate Researcher<br />Sep 2022 - Present<br /><br />I collect and merge data from real-world datasets to quantify the role of physician-scientists and the impact of mentoring on physician-scientists. The data are stored in a MySQL database, in which I design the tables with primary and reference keys containing information on people, projects, publications, and organizations to analyze how projects evolve and the professional relationships between scientists. I also present weekly updates and findings to research groups and supervisor for feedbacks.</>,
             link: "",
             link_type: "none",
             img: "",
             img_style: ""
-        },
+        },*/
         {
             title: "MIT Lecture Series Committee",
             detail: <>Webmaster and Projectionist<br />Jan 2022 - Present<br /><br />As the webmaster, I continuously update the website for the organization's screening by changing the SHTML files that I access through FileZilla to inform MIT students of future LSC screenings.<br />As a projectionist, I help set up the screenings by setting up the lights and the screen. I also set up the movie by configuring the projector through my computer.</>,
