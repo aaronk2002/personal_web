@@ -1,8 +1,12 @@
 import SingleContent from "../components/SingleContent";
 import Desc from "../components/Desc.js";
 import Img from "../components/Img.js";
+import React, { useEffect } from 'react';
 
 function Projects() {
+    useEffect(() => {
+        document.title = 'Aaron Web | Projects';
+    });
     const projs = [
         {
             title: "Lie Wordle",

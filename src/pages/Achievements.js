@@ -1,8 +1,12 @@
 import SingleContent from "../components/SingleContent";
 import Desc from "../components/Desc.js";
 import Img from "../components/Img.js";
+import React, { useEffect } from 'react';
 
 function Achievements() {
+    useEffect(() => {
+        document.title = 'Aaron Web | Achievements';
+    });
     const comps = [
         {
             title: "Honorable Mention, Putnam Mathematical Competition 2021",

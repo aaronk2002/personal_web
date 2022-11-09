@@ -1,8 +1,12 @@
 import SingleContent from "../components/SingleContent";
 import Desc from "../components/Desc.js";
 import Img from "../components/Img.js";
+import React, { useEffect } from 'react';
 
 function Experiences() {
+    useEffect(() => {
+        document.title = 'Aaron Web | Experiences';
+    });
     const exps = [
         /*{
             title: "Harvard-MIT Division of Health Sciences and Technology",
