@@ -10,7 +10,7 @@ function Experiences() {
     const exps = [
         {
             title: "Harvard-MIT Division of Health Sciences and Technology",
-            detail: <>Undergraduate Researcher<br />Sep 2022 - Present<br /><br />I collect and merge data from real-world datasets to quantify the role of physician-scientists and the impact of mentoring on physician-scientists. The data are stored in a MySQL database, in which I design the tables with primary and reference keys containing information on people, projects, publications, and organizations to analyze how projects evolve and the professional relationships between scientists. I also present weekly updates and findings to research groups and supervisor for feedbacks.</>,
+            detail: <>Undergraduate Researcher<br />Sep 2022 - Present<br /><br />I collect and merge data from real-world datasets to quantify the role of physician-scientists and the impact of mentoring on physician-scientists. The data are stored in a MySQL database, in which I design the tables with primary and foreign keys containing information on people, projects, publications, and organizations to analyze how projects evolve and the professional relationships between scientists. I also present weekly updates and findings to research groups and supervisor for feedbacks.</>,
             link: "",
             link_type: "none",
             img: "",
