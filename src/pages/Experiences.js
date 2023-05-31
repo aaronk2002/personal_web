@@ -10,7 +10,7 @@ function Experiences() {
     const exps = [
         {
             title: "Azizan Lab",
-            detail: <>Undergraduate Researcher<br />Feb 2023 - Present<br /><br />TODO</>,
+            detail: <>Undergraduate Researcher<br />Feb 2023 - Present<br /><br />I investigated the generalization properties of the Stochastic Mirror Descent optimizer on l^p potentials. In the project, I set up several experiments to see what this algorithm does to the weights on a neural network, and how it increases or decreases test accuracies. I am currently not doing the project, but will continue in next Fall.</>,
             link: "",
             link_type: "none",
             img: "",
