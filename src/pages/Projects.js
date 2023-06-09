@@ -9,22 +9,6 @@ function Projects() {
     });
     const projs = [
         {
-            title: "6.1800/6.033 Class Project",
-            detail: <><br />TODO</>,
-            link: "",
-            link_type: "none",
-            img: "",
-            img_style: ""
-        },
-        {
-            title: "Star Battle (6.1020/6.031 Class Project)",
-            detail: <><br />TODO</>,
-            link: "",
-            link_type: "none",
-            img: "",
-            img_style: ""
-        },
-        {
             title: "Lie Wordle",
             detail: <><br />I recreated the popular WORDLE app, with a new mode where one letter clue is false or hidden using the React.js as the front-end, node.js and express.js as back-end for making API’s, and MongoDB as the database that stores most, if not all, five-letter English words.</>,
             link: "https://lie-wordle.netlify.app/",
