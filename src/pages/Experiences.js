@@ -10,11 +10,11 @@ function Experiences() {
     const exps = [
         {
             title: "Micronotes",
-            detail: <>Machine Learning Intern<br />May 2023 - Present<br /><br />I design and implement machine learning models to help financial institution predict the likelihood of a customer closing an offer</>,
-            link: "",
-            link_type: "none",
-            img: "",
-            img_style: ""
+            detail: <>Machine Learning Intern<br />May 2023 - Present<br /><br />I design and implement machine learning models to help financial institution predict the likelihood of a customer accepting an offer</>,
+            link: "https://micronotes.ai/",
+            link_type: "website",
+            img: require("../public/micronotes.jpeg"),
+            img_style: "landscape"
         },
         {
             title: "Azizan Lab",
