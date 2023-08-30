@@ -10,7 +10,7 @@ function NavBar() {
     const toggle = () => {
         setVisible(!visible);
     };
-    const [isPortrait, setIsPortrait] = useState(useScreenOrientation() == "portrait-primary");
+    const [isPortrait, setIsPortrait] = useState(useScreenOrientation() === "portrait-primary");
     const changePortrait = () => {setIsPortrait(!isPortrait);};
     window.addEventListener('orientationchange', changePortrait);
     return (<>
@@ -27,7 +27,7 @@ function NavBar() {
                         <span className="navPages"><Link to="/" className="navLinks" onClick={toggle}><button className="navButtons">Home</button></Link></span>
                         <span className="navPages"><Link to="/achievements" className="navLinks" onClick={toggle}><button className="navButtons">Achievements</button></Link></span>
                         <span className="navPages"><Link to="/experiences" className="navLinks" onClick={toggle}><button className="navButtons">Experiences</button></Link></span>
-                        <span className="navPages"><Link to="/projects" className="navLinks" onClick={toggle}><button className="navButtons">Projects</button></Link></span>
+                        <span className="navPages"><a href='https://github.com/aaronk2002' className='navLinks'><button className="navButtons">GitHub</button></a></span>
                     </>:
                     <></>
                 }

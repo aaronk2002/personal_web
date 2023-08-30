@@ -10,31 +10,47 @@ function Experiences() {
     const exps = [
         {
             title: "Micronotes",
-            detail: <>Machine Learning Intern<br />May 2023 - Present<br /><br />I design and implement machine learning models to help financial institution predict the likelihood of a customer accepting an offer</>,
-            link: "https://micronotes.ai/",
-            link_type: "website",
-            img: require("../public/micronotes.jpeg"),
-            img_style: "landscape"
+            detail: <>Machine Learning Intern<br />May 2023 - Aug 2023<br /><br />
+                I designed and implemented machine learning models to help financial institution predict the likelihood of a customer accepting a personal loan offer in the form of a list from most likely to least likely.
+                To achieve that, I cleaned and merged data from multiple files and sources and used them to train several classification decision tree models, which outputs the predicted probability of a sample customer accepting the offer.
+                These probability determines the placement of the customers in the resulting list.
+                I did exactly that on two different groups of data sources, with the first resulting in a model that can have 50% of accepting customers in the test set in the top 20% of the list.
+                Meanwhile, due to the nature of the second data source, I simply created a test list, which the company can only test after my internship period.
+            </>,
+            link: "",//"https://micronotes.ai/",
+            link_type: "",//"website",
+            img: "",//require("../public/micronotes.jpeg"),
+            img_style: ""//"landscape"
         },
         {
             title: "Azizan Lab",
-            detail: <>Undergraduate Researcher<br />Feb 2023 - May 2023<br /><br />I investigated the generalization properties of the Stochastic Mirror Descent optimizer on l^p potentials. In the project, I set up several experiments to see what this algorithm does to the weights on a neural network, and how it increases or decreases test accuracies. I am currently not doing the project, but will continue in next Fall.</>,
+            detail: <>Undergraduate Researcher<br />Feb 2023 - May 2023<br /><br />
+                I am currently not doing the project, but will continue in next Fall.<br /><br />
+                I investigated the generalization properties of the Stochastic Mirror Descent optimizer on l^p potentials.
+                In the project, I set up several experiments to see what this algorithm does to the weights on a neural network, and how it increases or decreases test accuracies.
+                In addition, I read many papers on the theory of generalization to supplement the empirical results that I will get.
+            </>,
             link: "",
             link_type: "none",
-            img: "",
-            img_style: ""
+            img: require("../public/IDSS_Horizontal_FullColor.jpg"),
+            img_style: "landscape"
         },
         {
             title: "Harvard-MIT Division of Health Sciences and Technology",
-            detail: <>Undergraduate Researcher<br />Sep 2022 - Jan 2023<br /><br />I collect and merge data from real-world datasets to quantify the role of physician-scientists and the impact of mentoring on physician-scientists. The data are stored in a MySQL database, in which I design the tables with primary and foreign keys containing information on people, projects, publications, and organizations to analyze how projects evolve and the professional relationships between scientists. I also present weekly updates and findings to research groups and supervisor for feedbacks.</>,
+            detail: <>Undergraduate Researcher<br />Sep 2022 - Jan 2023<br /><br />
+                To aid with data analysis on physician-scientists impact, 
+                I established a database that will store all the collected data for the group.
+                I designed the schemas of the tables along with their relations through primary and foreign keys, and in addition, I uploaded the data that the group collected from various physician-scientists websites using Python.
+                At the end of my experience, I created the central database and a GitHub repository that houses the group's data and codebase.
+            </>,
             link: "",
             link_type: "none",
-            img: "",
-            img_style: ""
+            img: require("../public/HST.jpg"),
+            img_style: "landscape"
         },
         {
             title: "MIT Lecture Series Committee",
-            detail: <>Webmaster and Projectionist<br />Jan 2022 - Present<br /><br />As the webmaster, I continuously update the website for the organization's screening by changing the SHTML files that I access through FileZilla to inform MIT students of future LSC screenings.<br />As a projectionist, I help set up the screenings by setting up the lights and the screen. I also set up the movie by configuring the projector through my computer.</>,
+            detail: <>Webmaster and Projectionist<br />Jan 2022 - Dec 2022<br /><br />As the webmaster, I continuously update the website for the organization's screening by changing the SHTML files that I access through FileZilla to inform MIT students of future LSC screenings.<br />As a projectionist, I help set up the screenings by setting up the lights and the screen. I also set up the movie by configuring the projector through my computer.</>,
             link: "http://lsc.mit.edu/",
             link_type: "website",
             img: require("../public/lsc.jpg"),
