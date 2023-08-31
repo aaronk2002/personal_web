@@ -17,10 +17,10 @@ function Experiences() {
                 I did exactly that on two different groups of data sources, with the first resulting in a model that can have 50% of accepting customers in the test set in the top 20% of the list.
                 Meanwhile, due to the nature of the second data source, I simply created a test list, which the company can only test after my internship period.
             </>,
-            link: "",//"https://micronotes.ai/",
-            link_type: "",//"website",
-            img: "",//require("../public/micronotes.jpeg"),
-            img_style: ""//"landscape"
+            link: "https://micronotes.ai/",
+            link_type: "website",
+            img: require("../public/micronotes.jpeg"),
+            img_style: "landscape"
         },
         {
             title: "Azizan Lab",
