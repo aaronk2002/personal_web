@@ -27,6 +27,7 @@ function NavBar() {
                         <span className="navPages"><Link to="/" className="navLinks" onClick={toggle}><button className="navButtons">Home</button></Link></span>
                         <span className="navPages"><Link to="/achievements" className="navLinks" onClick={toggle}><button className="navButtons">Achievements</button></Link></span>
                         <span className="navPages"><Link to="/experiences" className="navLinks" onClick={toggle}><button className="navButtons">Experiences</button></Link></span>
+                        <span className="navPages"><Link to="/projects" className="navLinks" onClick={toggle}><button className="navButtons">Class Projects</button></Link></span>
                         <span className="navPages"><a href='https://github.com/aaronk2002' className='navLinks'><button className="navButtons">GitHub</button></a></span>
                     </>:
                     <></>

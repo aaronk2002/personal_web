@@ -9,12 +9,22 @@ function Projects() {
     });
     const projs = [
         {
-            title: "Lie Wordle",
-            detail: <><br />I recreated the popular WORDLE app, with a new mode where one letter clue is false or hidden using the React.js as the front-end, node.js and express.js as back-end for making API’s, and MongoDB as the database that stores most, if not all, five-letter English words.</>,
-            link: "https://lie-wordle.netlify.app/",
-            link_type: "website",
-            img: require("../public/lie_wordle.jpg"),
-            img_style: "landscape"
+            title: "Improving Accuracy and Mitigating Bias and Uncertainty of Vision System Competition",
+            detail: <><br />
+                This project was a class project for the Intro to Deep Learning class at MIT. I also turned it in as an entry to a class competition and got third place. Class website can be found here: http://introtodeeplearning.com/
+                <br /><br />
+                The aim of the project was to create a facial detection deep learning model that was less biased and less uncertain about its predictions. To that end, I employed the following three techniques:
+                <br /><br />
+                - Weight the probability distribution of the training samples during training, allowing biased samples to be sampled less frequently, and letting the architecture learn under-represented features better
+                <br />
+                - Used dropout on the convolution layers of the system, which increases regularity by simulating the effect of ensembling multiple copies of the model while saving computation cost
+                <br />
+                - Stop training the system when the validation accuracy is above a threshold to improve test accuracy
+            </>,
+            link: "",
+            link_type: "",
+            img: "",
+            img_style: ""
         }
     ];
     return (
