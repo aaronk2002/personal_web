@@ -9,6 +9,18 @@ function Experiences() {
     });
     const exps = [
         {
+            title: "Azizan Lab",
+            detail: <>Undergraduate Researcher<br />Feb 2023 - May 2023; September 2023 - Present<br /><br />
+                I investigate the optimization properties of the Stochastic Mirror Descent optimizer on l^p potentials.
+                In the project, I set up several experiments to see what this algorithm does to the weights on a neural network to see what implicit bias the algorithm might have.
+                To run those experiments, I build infrastructures and pipeline of model training and data generation using pluggable object-oriented and modular components to improve reusability and code robustness.
+            </>,
+            link: "",
+            link_type: "none",
+            img: require("../public/IDSS_Horizontal_FullColor.jpg"),
+            img_style: "landscape"
+        },
+        {
             title: "Micronotes",
             detail: <>Machine Learning Intern<br />May 2023 - Aug 2023<br /><br />
                 I designed and implemented machine learning models to help financial institution predict the likelihood of a customer accepting a personal loan offer in the form of a list from most likely to least likely.
@@ -16,23 +28,11 @@ function Experiences() {
                 These probability determines the placement of the customers in the resulting list.
                 I did exactly that on two different groups of data sources, with the first resulting in a model that can have 50% of accepting customers in the test set in the top 20% of the list.
                 Meanwhile, due to the nature of the second data source, I simply created a test list, which the company can only test after my internship period.
+                I also used PySpark and Azure Databricks to process the data faster, and I created the pipeline while emphasizing reconfigurability and reusability.
             </>,
             link: "https://micronotes.ai/",
             link_type: "website",
             img: require("../public/micronotes.jpeg"),
-            img_style: "landscape"
-        },
-        {
-            title: "Azizan Lab",
-            detail: <>Undergraduate Researcher<br />Feb 2023 - May 2023<br /><br />
-                I am currently not doing the project, but will continue in next Fall.<br /><br />
-                I investigated the generalization properties of the Stochastic Mirror Descent optimizer on l^p potentials.
-                In the project, I set up several experiments to see what this algorithm does to the weights on a neural network, and how it increases or decreases test accuracies.
-                In addition, I read many papers on the theory of generalization to supplement the empirical results that I will get.
-            </>,
-            link: "",
-            link_type: "none",
-            img: require("../public/IDSS_Horizontal_FullColor.jpg"),
             img_style: "landscape"
         },
         {
