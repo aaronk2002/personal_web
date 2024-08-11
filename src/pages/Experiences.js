@@ -10,10 +10,11 @@ function Experiences() {
     const exps = [
         {
             title: "Azizan Lab",
-            detail: <>Undergraduate Researcher<br />Feb 2023 - May 2023; September 2023 - Present<br /><br />
-                I investigate the optimization properties of the Stochastic Mirror Descent optimizer on l^p potentials.
-                In the project, I set up several experiments to see what this algorithm does to the weights on a neural network to see what implicit bias the algorithm might have.
+            detail: <>Undergraduate Researcher<br />Feb 2023 - May 2023; September 2023 - May 2024<br /><br />
+                I investigated the regularization and generalization properties of the mirror descent learning algorithm when it is used to train attention models.
+                In the project, I set up several experiments to see what this algorithm does to the weights on attention models, such as transformers, to see what implicit bias the algorithm might have and to also see how well the resulting model generalizes on unseen data.
                 To run those experiments, I build infrastructures and pipeline of model training and data generation using pluggable object-oriented and modular components to improve reusability and code robustness.
+                In addition to the empirical experiments, I also deduced the theoretical proofs of the implicit regularization properties that I discovered through the experiments.
             </>,
             link: "",
             link_type: "none",
