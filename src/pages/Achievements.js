@@ -9,16 +9,23 @@ function Achievements() {
     });
     const comps = [
         {
+            title: "Honorable Mention, Putnam Mathematical Competition 2023",
+            detail: <><br />Received 60/120 points, ranked 43 out of more than 3000 people</>,
+            link: "",
+            img: require("../public/putnam_2023.png"),
+            img_style: "portrait"
+        },
+        {
             title: "Honorable Mention, Putnam Mathematical Competition 2022",
             detail: <><br />Received 57/120 points, ranked 66 out of 3415 people</>,
-            link: "https://www.maa.org/sites/default/files/pdf/Putnam/2022/AnnouncementOfWinnersFall2022.docx%20%281%29.pdf",
+            link: "",
             img: require("../public/putnam_2022.png"),
             img_style: "portrait"
         },
         {
             title: "Honorable Mention, Putnam Mathematical Competition 2021",
             detail: <><br />Received 50/120 points, ranked 57 out of 2975 people</>,
-            link: "https://www.maa.org/sites/default/files/pdf/Putnam/2021/AnnouncementOfWinnersFall2021.docx%20%284%29.pdf",
+            link: "",
             img: require("../public/putnam_2021.png"),
             img_style: "portrait"
         },
