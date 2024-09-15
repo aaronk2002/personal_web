@@ -9,8 +9,18 @@ function Experiences() {
     });
     const exps = [
         {
+            title: "MIT Fundamentals of Programming",
+            detail: <>Undergraduate Lab Assistant<br />September 2024 - Present<br /><br />
+                Help students of the course learn to correctly implement their code for their programming labs during office hours.
+            </>,
+            link: "",
+            link_type: "none",
+            img: require("../public/6.1010.gif"),
+            img_style: "landscape"
+        },
+        {
             title: "Azizan Lab",
-            detail: <>Undergraduate Researcher<br />Feb 2023 - May 2023; September 2023 - May 2024<br /><br />
+            detail: <>Undergraduate Researcher<br />Feb 2023 - May 2023; September 2023 - May 2024; September 2024 - Present<br /><br />
                 I investigated the regularization and generalization properties of the mirror descent learning algorithm when it is used to train attention models.
                 In the project, I set up several experiments to see what implicit bias the algorithm might have and to also see how well the resulting model generalizes on unseen data.
                 To run those experiments, I build infrastructures and pipeline of model training and data generation using pluggable object-oriented and modular components to improve reusability and code robustness.
