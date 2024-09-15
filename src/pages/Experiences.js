@@ -13,7 +13,7 @@ function Experiences() {
             detail: <>Undergraduate Lab Assistant<br />September 2024 - Present<br /><br />
                 Help students of the course learn to correctly implement their code for their programming labs during office hours.
             </>,
-            link: "",
+            link: "https://py.mit.edu/",
             link_type: "none",
             img: require("../public/6.1010.gif"),
             img_style: "landscape"
